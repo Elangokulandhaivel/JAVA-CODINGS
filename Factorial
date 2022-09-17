@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Factorial {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        int number=sc.nextInt();
+        int res=number;
+        while(number>1) {
+        	res=res*(number-1);
+        	number--;	
+        }
+        System.out.println(res);
+	}
+
+}
