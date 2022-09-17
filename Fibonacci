@@ -3,6 +3,7 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the limit of the series: ");  // limit means how many numbers you need to print. example:you give 5-> output:0 1 1 2 3.
 		int limit=sc.nextInt();
 		int a=0,b=1,c=0;
 		System.out.print(a+" "+b);
