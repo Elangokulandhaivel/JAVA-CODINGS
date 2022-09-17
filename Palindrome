@@ -27,3 +27,4 @@ public class Palindrome {
 	}
 
 }
+//In this program i get the string input.Instead of this you want to get integer input, you to change that integer to string...
