@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Swapping {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a integer for a: ");
+		int a=sc.nextInt();
+		System.out.println("Enter a integer for b: ");
+		int b=sc.nextInt();
+		Swapping obj=new Swapping();
+		
+		obj.swap_by_using_var(a, b);
+		
+		obj.swap_by_arithmetic(a, b);
+	}
+	
+	void swap_by_using_var(int a,int b) {
+		int c=a;
+		a=b;
+		b=c;
+		System.out.println("Swap by using third variable: a = "+a+"b = "+b);
+		
+	}
+	
+	void swap_by_arithmetic(int a,int b) {
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("Swap by arithmetic operation: a = "+a+"b = "+b);
+	}
+
+}
